@@ -329,7 +329,7 @@ class Daemon(object):
         }
         return self.rpc.send_json_rpc_request(banned)
 
-    def set_bootstrap_daemon(self, address, username = '', password = ''):
+    def set_bootstrap_daemon(self, address, username=None, password=None):
         set_bootstrap_daemon = {
             'address': address,
             'username': username,

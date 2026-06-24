@@ -74,7 +74,7 @@ for n in range(1, len(sys.argv)):
 # add tab completion if we can: https://stackoverflow.com/questions/246725
 try:
   import readline
-except:
+except ImportError:
   pass
 else:
   import rlcompleter

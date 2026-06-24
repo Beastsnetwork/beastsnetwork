@@ -56,12 +56,13 @@ class JSONRPC(object):
         self.username = username
         self.password = password
 
-    def send_request(self, path, inputs, result_field = None):
+    def send_request(self, path, inputs, result_field = None, timeout=10):
         res = requests.post(
             self.url + path,
             data=json.dumps(inputs),
             headers={'content-type': 'application/json'},
-            auth=HTTPDigestAuth(self.username, self.password) if self.username is not None else None)
+            auth=HTTPDigestAuth(self.username, self.password) if self.username is not None else None,
+            timeout=timeout)
         res = res.json()
 
         assert 'error' not in res, res

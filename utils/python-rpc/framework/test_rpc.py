@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import functools
 import unittest
 
 from rpc import Response

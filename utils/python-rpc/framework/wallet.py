@@ -543,8 +543,8 @@ class Wallet(object):
         }
         return self.rpc.send_json_rpc_request(exchange_multisig_keys)
 
-    def get_multisig_key_exchange_booster(self, multisig_info, threshold, num_signers, password = ''):
-        exchange_multisig_keys = {
+    def get_multisig_key_exchange_booster(self, multisig_info, threshold, num_signers, password=''):
+        get_multisig_key_exchange_booster = {
             'method': 'get_multisig_key_exchange_booster',
             'params' : {
                 'multisig_info': multisig_info,
