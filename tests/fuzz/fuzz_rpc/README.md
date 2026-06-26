@@ -1,7 +1,6 @@
-# Fuzzing Harness Explanation
+# Beastsnetwork Fuzzing Harness Explanation
 
 The fuzzing harness skips the transport layer and directly initialises a `core_rpc_server` object. It then calls and fuzzes the RPC endpoint function handlers directly, removing the need to start a fake server while still allowing the handler logic for each RPC API to be fuzzed.
-
 
 ## `fuzz_rpc.cpp` / `fuzz_zmq.cpp`
 
@@ -31,7 +30,6 @@ The same `fuzz_rpc.cpp` is compiled into two versions of the fuzzer, one with th
 ## Select a Random RPC Endpoint Function / ZMQ Endpoint Function
 
 Random data is used to generate selectors that choose an RPC endpoint function / ZMQ endpoint function to fuzz, either from the safe or risky function maps (depending on whether the `SAFE` macro is defined). A function from the priority category is always included at least once.
-
 
 ## `initialise_rpc_core` / `initialise_rpc_server`
 

@@ -1,4 +1,4 @@
-### Usage
+### Beastsnetwork Dependencies Build System
 
 To build dependencies for the current arch+OS, from this working directory:
 
@@ -18,9 +18,7 @@ For example:
 make HOST=x86_64-w64-mingw32 -j4
 ```
 
-A toolchain will be generated that's suitable for plugging into Monero's
-cmake. In the above example, a dir named x86_64-w64-mingw32 will be
-created. To use it for Monero, from the top of the Monero source tree:
+A toolchain will be generated that's suitable for plugging into Beastsnetwork's cmake. In the above example, a dir named x86_64-w64-mingw32 will be created. To use it for Beastsnetwork, from the top of the Beastsnetwork source tree:
 
 ```bash
 mkdir build
@@ -60,7 +58,7 @@ download-win: run 'make download-win' to fetch all sources needed for win builds
 download-linux: run 'make download-linux' to fetch all sources needed for linux builds
 ```
 
-#Mingw builds
+# Mingw builds
 
 Building for 32/64bit mingw requires switching alternatives to a posix mode
 
@@ -73,4 +71,3 @@ update-alternatives --set x86_64-w64-mingw32-gcc x86_64-w64-mingw32-gcc-posix
 
 - [description.md](description.md): General description of the depends system
 - [packages.md](packages.md): Steps for adding packages
-
