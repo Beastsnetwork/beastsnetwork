@@ -85,30 +85,6 @@ As with many development projects, the repository on GitHub is considered to be 
 
 **Anyone is welcome to contribute to Beastsnetwork's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the `master` branch. In cases where the change is relatively small or does not affect other parts of the codebase, it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted or even directly on the pull request.
 
-## Supporting the project
-
-Beastsnetwork is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Beastsnetwork and Bitcoin donations can be made to **donate.beastsnetwork.win** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively, you can send BEAST to the Beastsnetwork donation address via the `donate` command (type `help` in the command-line wallet for details).
-
-The Beastsnetwork donation address is:
-`888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H`
-
-Viewkey:
-`f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`
-
-Base address for restoring with address and viewkey:
-`44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A`
-
-The Bitcoin donation address is:
-`1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
-
-Core development funding and/or some supporting services are also graciously provided by [sponsors](https://www.beastsnetwork.win/community/sponsorships/):
-
-[<img width="150" src="https://www.beastsnetwork.win/img/sponsors/tarilabs.png"/>](https://tarilabs.com/)
-[<img width="150" src="https://www.beastsnetwork.win/img/sponsors/symas.png"/>](https://symas.com/)
-[<img width="150" src="https://www.beastsnetwork.win/img/sponsors/macstadium.png"/>](https://www.macstadium.com/)
-
-There are also several mining pools that kindly donate a portion of their fees. A list of them can be found on our [Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
-
 ## License
 
 See [LICENSE](LICENSE).
