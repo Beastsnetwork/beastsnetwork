@@ -16,6 +16,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
   - [Supporting the project](#supporting-the-project)
   - [License](#license)
   - [Contributing](#contributing)
+  - [PGP Session](#pgp-session)
   - [Scheduled software upgrades](#scheduled-software-network-upgrades)
   - [Release staging schedule and protocol](#release-staging-schedule-and-protocol)
   - [Compiling Beastsnetwork from source](#compiling-beastsnetwork-from-source)
@@ -30,7 +31,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 ## Development resources
 
 - Web: [beastsnetwork.win](https://beastsnetwork.win)
-- Mail: [dev@beastsnetwork.win](mailto:dev@beastsnetwork.win)
+- Mail: [psychostarship@pm.me](mailto:psychostarship@pm.me)
 - GitHub: [https://github.com/Beastsnetwork/beastsnetwork](https://github.com/Beastsnetwork/beastsnetwork)
 - IRC: [#beastsnetwork-dev on Libera](https://web.libera.chat/#beastsnetwork-dev)
 - It is HIGHLY recommended that you join the `#beastsnetwork-dev` IRC channel if you are developing software that uses Beastsnetwork. Due to the nature of this open-source software project, joining this channel and idling is the best way to stay updated on best practices and new developments in the Beastsnetwork ecosystem. All you need to do is join the IRC channel and idle to stay updated with the latest in Beastsnetwork development. If you do not, you risk wasting resources on developing integrations that are not compatible with the Beastsnetwork network. The Beastsnetwork core team and community continuously make efforts to communicate updates, developments, and documentation via other platforms — but for the best information, you need to talk to other Beastsnetwork developers, and they are on IRC. `#beastsnetwork-dev` is about Beastsnetwork development, not getting help about using Beastsnetwork, or help about development of other software, including yours, unless it also pertains to Beastsnetwork code itself. For these cases, check out `#beastsnetwork`.
@@ -115,3 +116,30 @@ See [LICENSE](LICENSE).
 ## Contributing
 
 If you want to help out, see [CONTRIBUTING](docs/CONTRIBUTING.md) for a set of guidelines.
+
+## PGP Session
+
+For secure communication, you can use PGP to encrypt your messages. Contact us via email at [psychostarship@pm.me](mailto:psychostarship@pm.me) for PGP-related inquiries or to obtain our public key. This ensures end-to-end encryption for sensitive discussions or vulnerability disclosures.
+
+**PGP Public Key:**
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xYYEaK8eChYJKwYBBAHaRw8BAQdAtrZUZlwnvdhurpIN62hyByd/nE6G/MPr
+M0A15e5Ni8b+CQMIBNE6HL67veVgAAAAAAAAAAAAAAAAAAAAAHDqimQ2y19Y
+bMXNl0UmylbRyZys66xv4KgKGV6KZNmXcUkdDi8p8T5Y1v1qXHCborBfHjoh
+rs0rcHN5Y2hvc3RhcnNoaXBAcG0ubWUgPHBzeWNob3N0YXJzaGlwQHBtLm1l
+PsLAEQQTFgoAgwWCaK8eCgMLCQcJkJ6yMqcN654+RRQAAAAAABwAIHNhbHRA
+bm90YXRpb25zLm9wZW5wZ3Bqcy5vcmfLJ1sonNGf/xGzu4/JyRKh5P5keIpD
+c9tXe4UTeqCRFwMVCggEFgACAQIZAQKbAwIeARYhBDdcsha+kIpIVlJpK56y
+MqcN654+AAA4kAEAq+W6GuHIXbd5+cR7yFaqVOITTqp1i9q9JtrQ1wquGYcA
+/juLLYP60qhxZOZemKu/OUluQTr/ZjT/gp9cRekNwF8Bx4sEaK8eChIKKwYB
+BAGXVQEFAQEHQNvS0jCBF0UtwWBekGu9hFaHdZBD9a7aQr/Qz3Bc9W5mAwEI
+B/4JAwjMlPXCHXn9wmAAAAAAAAAAAAAAAAAAAAAAox8af2Vdsn0mUFD3K1CH
+2OXpxPxgo0WMNbkBJ9tkh2n6dcO5LuweR0ANP8kg5HjbIU0H7LCewr4EGBYK
+AHAFgmivHgoJkJ6yMqcN654+RRQAAAAAABwAIHNhbHRAbm90YXRpb25zLm9w
+ZW5wZ3Bqcy5vcmdb4O0Ir3qEPrzhCDadlvvP9HGwRGmJFvA/2MjvZfnD1wKb
+DBYhBDdcsha+kIpIVlJpK56yMqcN654+AACHqgEA3m6HJ46nh738p51YA4Ps
+K2YaIxxoMoHnez8YAv5DFFEA/ikefHkcBcOvpnw9jHTGAFbyS8QuvTTms2pU
++T6MeagG
+=Yw1y
+-----END PGP PUBLIC KEY BLOCK-----
