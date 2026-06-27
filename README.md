@@ -122,6 +122,7 @@ If you want to help out, see [CONTRIBUTING](docs/CONTRIBUTING.md) for a set of g
 For secure communication, you can use PGP to encrypt your messages. Contact us via email at [psychostarship@pm.me](mailto:psychostarship@pm.me) for PGP-related inquiries or to obtain our public key. This ensures end-to-end encryption for sensitive discussions or vulnerability disclosures.
 
 **PGP Public Key:**
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 xYYEaK8eChYJKwYBBAHaRw8BAQdAtrZUZlwnvdhurpIN62hyByd/nE6G/MPr
